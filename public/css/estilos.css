@@ -50,7 +50,7 @@ body{
   border-radius: 5%;
 }
 
-.Text-hero{
+.Text-main{
   height: 400px;
   width: 100vw;
   color: white;
@@ -58,15 +58,15 @@ body{
   padding-top: 180px;
 }
 
-.Text-hero h3,h4{
+.Text-main h3,h4{
   font-size: 5vw;
   width: 100%;
-  letter-spacing:.2em;
-  font-weight: bold;
+  letter-spacing:.2em;  /*espacio entre los caracteres*/
+  font-weight: bold;    /*grosor de las letras*/
 
 }
 
-.Text-hero a{
+.Text-main a{
   font-family: 'Source Code Pro', monospace;
   font-size: 20px;
   color: black;
@@ -75,7 +75,7 @@ body{
   border-radius: 5px;
   background: linear-gradient(160deg, grey 0%,#fdbb2d 100%);
 }
-.Text-hero a:hover{
+.Text-main a:hover{
   background: linear-gradient(160deg, grey 0%,#fdbb2db0 100%);
 }
 
